@@ -5,6 +5,7 @@ See this [blog post](https://medium.com/@rohanpai25/reversing-robinhood-free-acc
 ## Current Features 
 - Placing buy orders (`Robinhood.place_buy_order`)
 - Placing sell order (`Robinhood.place_sell_order`)
+- Placing stop loss order (`Robinhood.place_stop_loss_order`)
 - Quote information (`Robinhood.quote_data`)
 - User portfolio data (`Robinhood.portfolios`)
 - User positions data (`Robinhood.positions`)
@@ -25,6 +26,7 @@ Project will work on both python 2 and python 3
     quote_info = my_trader.quote_data("GEVO")
     buy_order = my_trader.place_buy_order(stock_instrument, 1)
     sell_order = my_trader.place_sell_order(stock_instrument, 1)
+    stop_loss_order = my_trader.place_stop_loss_order(stock_instrument, 1)
 
 ### Data returned
 * Quote data

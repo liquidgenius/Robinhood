@@ -1846,7 +1846,7 @@ class Robinhood:
         transaction = Transaction.SELL
         return self.place_order(instrument, quantity, bid_price, transaction)
 
-    def place_stop_loss_sell_order(
+    def place_stop_loss_order(
             self,
             instrument,
             quantity,
